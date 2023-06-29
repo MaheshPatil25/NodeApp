@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Visitor Information</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <table border="1">
+        <form>
+            <tr>
+                <thead>Visitor Information</thead>
+            </tr>
+            <tr>
+                <td><label for="emailid">Email Adress:</label></td>
+                <td><input type="email" placeholder="jhon@gmail.com" name="email" required /></td>
+            </tr>
+            <tr >
+                <td><label for="choice">Do You Purchase For:</label></td>
+                <td colspan="2"><input type="checkbox" name="research" id="choice" value="research" />Research
+                <input type="checkbox" name="Purchase" id="choice" value="Purchase" />Purchase</td>
+            </tr>
+           <tr>
+            <td><label for="choose">Occupation</label></td>
+            <td><select name="Occupation" id="choose">
+                <option value="Student">Student</option>
+                <option value="Farmer">Farmer</option>
+                <option value="Enginer ">Enginer</option>
+               <option value="Govt Employee ">Govt Employee</option>
+               <option value="Fukat">Fukat</option>
+
+            </select></td>
+           </tr>
+           <tr>
+            <td><label for="junk">Want to send us junk email</label></td>
+            <td colspan="2"><input type="radio" name="anyone" id="junk" value="absulotely"/>Absoutley
+            <input type="radio" name="anyone" id="junk" value="No way"/>No way</td>
+           </tr>
+           <tr>
+            <td style="text-align: center;"><input type="submit" value="Login"/></td>
+            <td style="text-align: center;"><input type="reset" value="Reset"/></td>
+           </tr>
+        </form>
+    </table>
+</body>
+</html>
